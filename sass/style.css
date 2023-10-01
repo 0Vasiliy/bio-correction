@@ -1,0 +1,80 @@
+@import url(./blocks/base/header.css);
+@import url(./blocks/base/problems.css);
+@import url(./blocks/base/button.css);
+
+@import url(./blocks/duhon/duhon.css);
+@import url(./blocks/correction/correction.css);
+@import url(./blocks/form/form.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/pageup/pageup.css);
+@import url(./blocks/slider/slider.css);
+
+@import url(./blocks/consultation/consultation.css);
+
+@import url(./libs/vars.css);
+
+@media (max-width: 1250px){
+  .slides_diplom{
+    left: 30%;
+  }
+  @media (max-width: 790px){
+    .slides_diplom{
+      left: 40%;
+    }
+}
+@media (max-width: 500px){
+  .slides_diplom{
+    left: 70%;
+  }
+}
+* {
+    box-sizing: border-box;
+  }
+ 
+
+
+  a,
+  button,
+  input,
+  select,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    appearance: none;
+    background: none;
+  }
+
+.duhon{
+  display: block;
+  background: var(--white, #fefefe);
+  width: 1920px;
+  height: 960px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.duhons{
+  display: block;
+  width: 1920px;
+  height: 960px;
+  overflow: hidden;
+}
+.duho{
+  display: block;
+  width: 1920px;
+  height: 960px;
+  overflow: hidden;
+
+}
+
+
+
+

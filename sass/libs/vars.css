@@ -1,0 +1,18 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --green: #5ad5aa;
+  --white: #fefefe;
+  --violet: #816ee0;
+  --gray: #f1f1f1;
+  --black: #232625;
+  --font-gray: #a4a4a4;
+
+  /* Fonts */
+  --: 800 80px/88px "Manrope", sans-serif;
+  --h-1: 800 52px "Manrope", sans-serif;
+  --h-2: 800 30px "Manrope", sans-serif;
+  --: 400 17px "Manrope", sans-serif;
+
+  /* Effects */
+}

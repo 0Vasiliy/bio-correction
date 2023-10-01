@@ -1,0 +1,176 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1750px;
+    position: absolute;
+    left: calc(50% - 816px);
+    top: 40px;
+}
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;   
+}
+.header_diplomas{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+   
+     transition:  all .4s ease-in ; 
+     -webkit-transition: all .4s ease-in ;
+     -o-transition: all .4s ease-in ;
+     -moz-transition: all .4s ease-in ;
+}
+.header_diplomas_text{
+    color: var(--black, #232625);
+    text-align: left;
+    font: 600 20px "Manrope", sans-serif;
+    position: relative;
+}
+.header_programs{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+
+    transition:  all .4s ease-in ; 
+    -webkit-transition: all .4s ease-in ;
+    -o-transition: all .4s ease-in ;
+    -moz-transition: all .4s ease-in ;
+
+}
+.header_programs_text{
+    color: var(--black, #232625);
+    text-align: left;
+    font: 600 20px "Manrope", sans-serif;
+    position: relative;
+}
+.header_directions{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+
+    transition:  all .4s ease-in ; 
+    -webkit-transition: all .4s ease-in ;
+    -o-transition: all .4s ease-in ;
+    -moz-transition: all .4s ease-in ;
+}
+.header_directions_text{
+    color: var(--black, #232625);
+    text-align: left;
+    font: 600 20px "Manrope", sans-serif;
+    position: relative;
+}
+.header_phone{
+    background: var(--gray, #f1f1f1);
+    border-radius: 500px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+}
+.header_phone_link{
+    color: var(--violet, #816ee0);
+    text-align: left;
+    font: 600 20px "Manrope", sans-serif;
+    position: relative;
+}
+.header_btn{
+    background: var(--violet, #816ee0);
+    border-radius: 500px;
+    padding: 18px 32px 18px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+}
+.header_btn:hover{
+    transition: all .4s ease-in ;
+    background:  rgba(90, 213, 170, 1);
+}
+.header_btn_text{
+    color: var(--white, #fefefe);
+    text-align: left;
+    font: 600 17px "Manrope", sans-serif;
+    position: relative;
+}
+
+.header_diplomas:hover {
+
+   transform: translateY(10px);
+   -webkit-transform: translateY(10px);
+   -o-transform: translateY(10px);
+   -moz-transform: translateY(10px);
+
+    transition:  all .4s ease-in ; 
+    -webkit-transition: all .4s ease-in ;
+	-o-transition: all .4s ease-in ;
+    -moz-transition: all .4s ease-in ;
+}
+.header_diplomas_text:hover {
+    color: var(--violet, #816ee0);
+}
+.header_programs:hover{
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+ 
+    transition:  all .4s ease-in ; 
+    -webkit-transition: all .4s ease-in ;
+    -o-transition: all .4s ease-in ;
+    -moz-transition: all .4s ease-in ;
+}
+
+.header_programs_text:hover {
+    color: var(--violet, #816ee0);
+}
+.header_directions:hover{
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+ 
+    transition:  all .4s ease-in ; 
+    -webkit-transition: all .4s ease-in ;
+    -o-transition: all .4s ease-in ;
+    -moz-transition: all .4s ease-in ;
+}
+
+.header_directions_text:hover {
+    color: var(--violet, #816ee0);
+}

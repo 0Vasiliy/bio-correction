@@ -1,0 +1,423 @@
+.consultation{
+    display: block;
+    background: var(--white, #fefefe);
+    width: 1920px;
+    height: 960px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+.consultation_text{
+    color: var(--black, #232625);
+    text-align: left;
+    font: var(--h-1, 800 52px "Manrope", sans-serif);
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+.consultation_block,
+.consultation_block * {
+  box-sizing: border-box;
+}
+.consultation_block {
+  margin-top: 121px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+
+
+}
+.consultation_blocks1 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.consultation_block1{
+  width: 100%;
+  width: 518px;
+  height: 123px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.consultation_blocks_as_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.consultation_blocks_as_item1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.consultation_blocks_as_item2 {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.consultation_blocks_as_mask {
+  flex-shrink: 0;
+  width: 107px;
+  height: 105.19px;
+  position: static;
+  
+}
+.consultation_blocks_as_mask1 {
+  background: #5ad5aa;
+  border-radius: 35.06px 35.06px 0px 40px;
+  width: 107px;
+  height: 105.19px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: inset 3.02px 3.02px 7.86px 0px rgba(81, 192, 153, 0.9),
+    inset -3.02px -3.02px 6.05px 0px rgba(99, 234, 187, 0.9),
+    inset 3.02px -3.02px 6.05px 0px rgba(81, 192, 153, 0.2),
+    inset -3.02px 3.02px 6.05px 0px rgba(81, 192, 153, 0.2),
+    -0.6px -0.6px 1.21px 0px rgba(81, 192, 153, 0.5),
+    0.6px 0.6px 1.21px 0px rgba(99, 234, 187, 0.3);
+    
+}
+.consultation_blocks_as_mask2 {
+  background: #5ad5aa;
+  border-radius: 35.06px 35.06px 0px 40px;
+  width: 107px;
+  height: 105.19px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: inset 3.02px 3.02px 7.86px 0px rgba(81, 192, 153, 0.9),
+    inset -3.02px -3.02px 6.05px 0px rgba(99, 234, 187, 0.9),
+    inset 3.02px -3.02px 6.05px 0px rgba(81, 192, 153, 0.2),
+    inset -3.02px 3.02px 6.05px 0px rgba(81, 192, 153, 0.2),
+    -0.6px -0.6px 1.21px 0px rgba(81, 192, 153, 0.5),
+    0.6px 0.6px 1.21px 0px rgba(99, 234, 187, 0.3);
+}
+
+.consultation_blocks_as_mask3 {
+  color: #5ad5aa;
+  text-align: center;
+  font: 800 60.86px "Manrope", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 107px;
+  height: 103.98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    closest-side,
+    rgba(0, 255, 166, 1) 69.27083134651184%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  radial-gradient(
+    closest-side,
+    rgba(54, 255, 185, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  
+}
+.consultation_blocks_as_text {
+  color: var(--black, #232625);
+  text-align: left;
+  font: 800 30px "Manrope", sans-serif;
+  position: relative;
+  flex: 1;
+}
+.consultation_blocks_as_v1 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, 5px);
+  overflow: visible;
+}
+.consultation_blocks_as_line {
+  border-width: 3px 0 0 0;
+  border-style: solid;
+  border-image: linear-gradient(
+    269.98deg,
+    rgba(90, 213, 170, 1) 0%,
+    rgba(90, 213, 170, 0) 100%
+  );
+  border-image-slice: 1;
+  flex-shrink: 0;
+  width: 413px;
+  height: 0px;
+  position: absolute;
+  left: 520px;
+  top: 102.69px;
+  transform-origin: 0 0;
+  transform: rotate(180deg) scale(1, 1);
+}
+/* block2 */
+
+.consultation_blocks_as_text1{
+  color: var(--black, #232625);
+  font: 800 30px "Manrope", sans-serif;
+}
+
+.consultation_blocks_as_v2 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, 5px);
+  overflow: visible;
+}
+
+/* block3 */
+
+.consultation_blocks_as_text2 {
+  color: var(--black, #232625);
+  font: 800 30px "Manrope", sans-serif;
+}
+
+.consultation_blocks_as_v3 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, 5px);
+  overflow: visible;
+}
+/* block4 */
+.consultation_blocks2 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.consultation_block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 518px;
+  height: 123.82px;
+  position: relative;
+}
+.consultation_blocks_as_text3 {
+  color: var(--black, #232625);
+  font: 800 30px "Manrope", sans-serif;
+}
+
+.consultation_blocks_as_v4 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, 5px);
+  overflow: visible;
+}
+/* //block5 */
+.consultation_blocks_as_text4 {
+  color: var(--black, #232625);
+  font: 800 30px "Manrope", sans-serif;
+}
+
+.consultation_blocks_as_v5 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0, 5px);
+  overflow: visible;
+}
+/* block6 */
+.consultation_blocks_as_text5 {
+  color: var(--black, #232625);
+  font: 800 30px "Manrope", sans-serif;
+}
+
+.consultation_blocks_as_v6 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0px, 5px);
+  overflow: visible;
+}
+/* block7 */
+.consultation_blocks3 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.consultation_blocks_as_text6 {
+  color: var(--black, #232625);
+  font: 800 30px "Manrope", sans-serif;
+}
+.consultation_blocks_as_v7 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate( 0px, 5px);
+  overflow: visible;
+}
+/* block8 */
+.consultation_blocks_as_text7 {
+  color: var(--black, #232625);
+  font: 800 30px "Manrope", sans-serif;
+}
+.consultation_blocks_as_v8 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate( 0px, 5px);
+  overflow: visible;
+}
+/* block9 */
+.fconsultation_blocks_as_text9 {
+  color: var(--black, #232625);
+  font: 800 30px "Manrope", sans-serif;
+}
+
+.consultation_blocks_as_v9 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate( 0px, 5px);
+  overflow: visible;
+}
+
+/* button */
+.button1{
+  display:flex;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  height: 105px;
+  top: 719px;
+  left: 144px;
+  
+}
+.button_contur1{
+  position:absolute;
+  overflow: visible;
+  width: 38px;
+  height: 65px;
+  top: 23px;
+  left: 11px;
+  border-radius: 70px;
+  border: 2px;
+  border: 2px solid rgba(254, 254, 254, 1);
+  z-index: 30;
+}
+
+.button_scroll1{
+  position: absolute;
+  overflow: visible;
+  width: 38px;
+  height: 59px;
+  top: 23px;
+  left: 11px;
+  border-radius: 70px;
+  background:  rgba(131, 107, 226, 1);  
+  z-index: 10;
+}
+.button_scroll_line1{
+  position: absolute;
+  height: 12px;
+  top: 0px;
+  left: 18px;
+  border: 3px;
+  rotation:0;   
+  border: 1px solid rgba(35, 38, 37, 1);  
+}
+/* problems */
+
+
+.problems_help1{
+  display: flex;
+  gap: 15px;
+  align-items: center;  
+  position: absolute;
+  left: 1354px;
+  bottom: 154px;
+}
+.problems_help_img1{
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.problems_help_text1{
+  color: var(--black, #232625);
+  text-align: left;
+  font: 400 17px "Manrope", sans-serif;
+  position: relative;
+  width: 352px;
+  display: flex;
+  align-items: center;
+}
+.consultation_phones{
+  display: flex;
+  position: absolute;
+  gap: 30px;
+  bottom: 154px;
+  left: 570px;
+}
+.consultation_phone{
+  background: var(--gray, #f1f1f1);
+  border-radius: 500px;
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.consultation_phone_link{
+  color: var(--violet, #816ee0);
+  text-align: left;
+  font: 600 20px "Manrope", sans-serif;
+  position: relative;
+}
+.consultation_btn{
+  background: var(--violet, #816ee0);
+  border-radius: 500px;
+  padding: 18px 32px 18px 32px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.consultation_btn:hover{
+  transition: all .4s ease-in ;
+  background:  rgba(90, 213, 170, 1);
+}
+.consultation_btn_text{
+  color: var(--white, #fefefe);
+  text-align: left;
+  font: 600 17px "Manrope", sans-serif;
+  position: relative;
+}
+.consultation_text{
+  color: var(--white, #fefefe); 
+  font: 600 47px "Manrope", sans-serif; 
+}

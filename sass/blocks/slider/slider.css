@@ -1,0 +1,173 @@
+
+.slides2,
+.slides2 * {
+  box-sizing: border-box;
+}
+.slides2 {
+  max-width: 1920px;
+  height: 960px;
+  position: relative; 
+}
+.slides_diplom {
+  width: 1124px;
+  height: 652px;
+  position: absolute;
+  left: 20%;
+  top: calc(50% - 295px);
+  overflow: hidden;
+}
+.slides_slide {
+  display: flex;
+  flex-direction: row;
+  width: 1124px;
+}
+.slideon {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  width: 1124px;
+  height: 578px;
+  overflow: hidden;
+}
+
+.dots_block {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 31px);
+  top: 610px;
+}
+.dots-item {
+  background: var(--gray, #f1f1f1);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+.dots-item.active{
+  background: var(--violet, #816ee0);
+}
+.button2{
+  display: block;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  height: 105px;
+  top: 827px;
+  left: 144px;
+}
+.button_contur2{
+   position:absolute;
+  overflow: visible;
+  width: 38px;
+  height: 65px;
+  top: 23px;
+  left: 11px;
+  border-radius: 70px;
+  border: 2px;
+  border: 2px solid rgba(254, 254, 254, 1);
+  z-index: 30;
+}
+
+.button_scroll2{
+  position: absolute;
+  overflow: visible;
+  width: 38px;
+  height: 59px;
+  top: 23px;
+  left: 11px;
+  border-radius: 70px;
+  background:  rgba(131, 107, 226, 1);  
+  z-index: 10;
+}
+.button_scroll_line2{
+  position: absolute;
+  height: 12px;
+  top: 0px;
+  left: 18px;
+  border: 3px;
+  rotation:0;   
+  border: 1px solid rgba(35, 38, 37, 1);  
+}
+
+
+.problems_help2 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1354px;
+  top: 847px;
+}
+.problems_help_text2 {
+  color: #000000;
+  text-align: left;
+  font: 400 17px "Manrope", sans-serif;
+  position: relative;
+  width: 352px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.problems_help_img2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.slider_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1620px;
+  position: absolute;
+  left: 150px;
+  top: 40px;
+}
+.slider_text {
+  color: var(--black, #232625);
+  text-align: left;
+  font: var(--h-1, 800 52px "Manrope", sans-serif);
+  position: relative;
+}
+.btns_block{
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+.btns_left {
+  flex-shrink: 0;
+  width: 72px;
+  height: 65px;
+  cursor: pointer;
+}
+.btn_left {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.btns_right {
+  flex-shrink: 0;
+  width: 72px;
+  height: 65px;
+  position: relative;
+  cursor: pointer;
+}
+.btn_right {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}

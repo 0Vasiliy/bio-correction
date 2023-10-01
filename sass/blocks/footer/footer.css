@@ -1,0 +1,76 @@
+.footer{
+    transform-origin: 100% 50%;
+	transform: scale(1) translate(0px, 0px) rotate(0deg);
+	-webkit-transform: scale(1) translate(0px, 0px) rotate(0deg);
+	-moz-transform: scale(1) translate(0px, 0px) rotate(0deg);
+	-ms-transform: scale(1) translate(0px, 0px) rotate(0deg);
+	-o-transform: scale(1) translate(0px, 0px) rotate(0deg);
+    display: flex;
+    width: 1920px;
+    height: 250px;
+    background-color: #232625;
+}
+.footer_block{
+    width: 1254px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    flex-shrink: 0;
+    position: absolute;
+    width: 80%;
+    height: 170px;
+    margin-left: 100px;  
+    margin-top: 50px;
+}
+.footer_phones{
+    display: flex;
+    gap: 30px;
+}
+.footer_phone{
+    background: var(--gray, #f1f1f1);
+    border-radius: 500px;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+}
+.footer_phone_link{
+    color: var(--violet, #816ee0);
+    text-align: left;
+    font: 600 20px "Manrope", sans-serif;
+    position: relative;
+}
+.footer_btn{
+    background: var(--violet, #816ee0);
+    border-radius: 500px;
+    padding: 18px 32px 18px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+}
+.footer_btn:hover{
+    transition: all .4s ease-in ;
+    background:  rgba(90, 213, 170, 1);
+}
+.footer_btn_text{
+    color: var(--white, #fefefe);
+    text-align: left;
+    font: 600 17px "Manrope", sans-serif;
+    position: relative;
+}
+.footer_text{
+    color: var(--white, #fefefe); 
+    font: 600 47px "Manrope", sans-serif; 
+}

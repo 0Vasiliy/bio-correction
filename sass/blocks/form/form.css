@@ -1,0 +1,149 @@
+ .modal,
+.modal * {
+  box-sizing: border-box;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 795px;
+  opacity: 0;
+  pointer-events: none; 
+  transition: 0.5s all;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: #f2f2f2;
+  transform: translate(-50%, -50%);
+  border: 5px solid teal;
+}
+.modal.active{
+  opacity: 1; 
+  pointer-events: all; 
+  transition: 0.5s all;
+}
+.modal_close{
+  position: absolute;
+  top: 0;
+  right: -40px;
+  font-size: 45px;
+  line-height: 21px;
+  color: #c70101;
+  cursor: pointer;
+}
+.modal_title { 
+  margin-left: 5%;
+  color: var(--black, #232625);
+  text-align: left;
+  font: 800 52px/88px "Manrope", sans-serif;
+  position: relative;
+}
+.modal_block {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 90%;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.modal_block_name {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 70%;
+  position: relative;
+}
+.modal_input {
+  background: teal;
+  border-radius: 500px;
+  border-style: solid;
+  border-color: var(--gray, #f1f1f1);
+  border-width: 1px;
+  padding: 18px 32px 18px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  width: 350px;
+  position: relative;
+  color: var(--black, #232625);
+  text-align: left;
+  font: 600 20px "Manrope", sans-serif;
+  opacity: 0.4;
+}
+
+.modal_block_email_phone {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 700px;
+  position: relative;
+}
+.modal_input_email{
+  background: teal;
+  border-radius: 500px;
+  border-style: solid;
+  border-color: var(--gray, #f1f1f1);
+  border-width: 1px;
+  padding: 18px 32px 18px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  width: 350px;
+  position: relative;
+  color: var(--black, #232625);
+  text-align: left;
+  font: 600 20px "Manrope", sans-serif;
+  opacity: 0.4;
+  width: 382.5px;
+  height: 63px;
+}
+
+.modal_input_phone {
+  background: teal;
+  border-radius: 500px;
+  border-style: solid;
+  border-color: var(--gray, #f1f1f1);
+  border-width: 1px;
+  padding: 18px 32px 18px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  width: 350px;
+  position: relative;
+  font: 600 20px "Manrope", sans-serif;
+  opacity: 0.4;
+  width: 382.5px;
+  height: 63px;
+}
+
+
+
+.header_btn3{
+  background: var(--violet, #816ee0);
+  border-radius: 500px;
+  padding: 18px 32px 18px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  width: 150px ;
+  position: relative;
+  cursor: pointer;
+}
+.header_btn3:hover{
+  transition: all .4s ease-in ;
+  background:  rgba(90, 213, 170, 1);
+}
+.header_btn_text3{
+  color: var(--white, #fefefe);
+  text-align: left;
+  font: 600 17px "Manrope", sans-serif;
+  position: relative;
+}
