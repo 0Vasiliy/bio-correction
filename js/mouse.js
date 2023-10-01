@@ -1,4 +1,4 @@
-//Анимация мышки
+  //Анимация мышки
 
 const container = document.querySelector(".button");
 const ball = document.querySelector(".button_scroll");
@@ -69,4 +69,28 @@ function updatePosition2() {
 }
 
 updatePosition2();
+
+//Анимация мышки4
+
+const container3 = document.querySelector(".button3");
+const ball3 = document.querySelector(".button_scroll3");
+
+let position3 = 0;
+let velocity3 = 3;
+
+function updatePosition3() {
+  position3 += velocity3;
+  ball3.style.top = position3 + "px";
+
+  const container3Height = container3.clientHeight;
+  const ball3Height = ball3.clientHeight;
+  if (position3 <= 0 || position3 >= container3Height - ball3Height) {
+   
+    velocity3 = -velocity3;
+  }
+
+  setTimeout(updatePosition3, 100);
+}
+
+updatePosition3();
 

@@ -1,3 +1,4 @@
+
 const images = document.querySelectorAll('.slides_diplom .slides_slide  img');
 const sliderLine = document.querySelector('.slides_diplom .slides_slide ');
 let dots = document.querySelectorAll('.dots-item'),
@@ -55,4 +56,5 @@ function moveSlide() {
 function rollSlider() {
     sliderLine.style.transform = 'translate(-' + count * width + 'px)';
 }
+
 
