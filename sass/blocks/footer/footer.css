@@ -1,4 +1,5 @@
 .footer{
+    margin-left: 120px;  
     transform-origin: 100% 50%;
 	transform: scale(1) translate(0px, 0px) rotate(0deg);
 	-webkit-transform: scale(1) translate(0px, 0px) rotate(0deg);
@@ -6,19 +7,19 @@
 	-ms-transform: scale(1) translate(0px, 0px) rotate(0deg);
 	-o-transform: scale(1) translate(0px, 0px) rotate(0deg);
     display: flex;
-    width: 1920px;
+    width: 1800px;
     height: 250px;
     background-color: #232625;
 }
 .footer_block{
-    width: 1254px;
+    max-width: 1254px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-between;
     flex-shrink: 0;
     position: absolute;
-    width: 80%;
+    width: 70%;
     height: 170px;
     margin-left: 100px;  
     margin-top: 50px;
